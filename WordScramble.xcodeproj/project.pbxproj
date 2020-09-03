@@ -15,6 +15,7 @@
 		6D4FFFD224FC78BB00227ADE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4FFFD024FC78BB00227ADE /* LaunchScreen.storyboard */; };
 		6D4FFFDD24FC78BB00227ADE /* WordScrambleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4FFFDC24FC78BB00227ADE /* WordScrambleTests.swift */; };
 		6D4FFFE824FC78BB00227ADE /* WordScrambleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4FFFE724FC78BB00227ADE /* WordScrambleUITests.swift */; };
+		6D6928892500904D005D3B64 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6D6928882500904D005D3B64 /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6D4FFFE324FC78BB00227ADE /* WordScrambleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordScrambleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D4FFFE724FC78BB00227ADE /* WordScrambleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScrambleUITests.swift; sourceTree = "<group>"; };
 		6D4FFFE924FC78BB00227ADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D6928882500904D005D3B64 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = start.txt; path = "../../Downloads/HackingWithSwift-main/SwiftUI/project5-files/start.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		6D4FFFB924FC78B800227ADE = {
 			isa = PBXGroup;
 			children = (
+				6D6928882500904D005D3B64 /* start.txt */,
 				6D4FFFC424FC78B800227ADE /* WordScramble */,
 				6D4FFFDB24FC78BB00227ADE /* WordScrambleTests */,
 				6D4FFFE624FC78BB00227ADE /* WordScrambleUITests */,
@@ -241,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D4FFFD224FC78BB00227ADE /* LaunchScreen.storyboard in Resources */,
+				6D6928892500904D005D3B64 /* start.txt in Resources */,
 				6D4FFFCF24FC78BB00227ADE /* Preview Assets.xcassets in Resources */,
 				6D4FFFCC24FC78BB00227ADE /* Assets.xcassets in Resources */,
 			);
