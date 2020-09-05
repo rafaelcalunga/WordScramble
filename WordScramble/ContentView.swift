@@ -30,8 +30,13 @@ struct ContentView: View {
                     Image(systemName: "\($0.count).circle")
                     Text($0)
                 }
+                
+                Text("Banana")
             }
             .navigationBarTitle(rootWord)
+            .navigationBarItems(trailing: Button(action: startGame) {
+                Text("New Word")
+            })
             .onAppear(perform: startGame)
             .alert(isPresented: $showingError) {
                 Alert(title: Text(errorTitle), message: Text(errorMessage), dismissButton: .default(Text("OK")))
