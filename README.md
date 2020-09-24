@@ -13,4 +13,4 @@ I learned how to:
 - Add compatibility with older Objective-C
 - Validate words with UITextChecker
 
-This app was made using the course "100 Days of SwiftUI" from [Hacking With Swift](https://www.hackingwithswift.com/100/swiftui/)
+This app was made using the course **100 Days of SwiftUI** from [Hacking With Swift](https://www.hackingwithswift.com/100/swiftui/)
