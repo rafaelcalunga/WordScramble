@@ -30,8 +30,6 @@ struct ContentView: View {
                     Image(systemName: "\($0.count).circle")
                     Text($0)
                 }
-                
-                Text("Banana")
             }
             .navigationBarTitle(rootWord)
             .navigationBarItems(trailing: Button(action: startGame) {
